@@ -1,0 +1,6 @@
+<h1>Football Flick</h1>
+<% @homes.each do |home| %>
+    <ul>
+      <li><%= home.title %><%= image_tag home.icon %></li>
+    </ul>
+<%end%>
