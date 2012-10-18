@@ -961,3 +961,206 @@ Served asset /home.js - 304 Not Modified (0ms)
 
 Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-17 17:05:08 +0100
 Served asset /sp-studio.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2012-10-18 10:50:01 +0100
+Connecting to database specified by database.yml
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" [0m
+  Rendered homes/index.html.erb within layouts/application (2.1ms)
+Compiled application.css  (1ms)  (pid 89470)
+Completed 200 OK in 58ms (Views: 21.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:02 +0100
+Served asset /application.css - 200 OK (20ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:02 +0100
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-18 10:50:02 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-18 10:50:02 +0100
+Served asset /sp-studio.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" 
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Compiled base.css  (0ms)  (pid 89470)
+Compiled layout.css  (0ms)  (pid 89470)
+Compiled skeleton.css  (0ms)  (pid 89470)
+Compiled application.css  (18ms)  (pid 89470)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /base.css - 200 OK (19ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /skeleton.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-18 10:50:38 +0100
+Served asset /sp-studio.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" [0m
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-18 10:51:21 +0100
+Served asset /sp-studio.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.2ms)[0m  SELECT "homes".* FROM "homes" 
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Compiled tabs.js  (0ms)  (pid 89470)
+Compiled application.js  (24ms)  (pid 89470)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /tabs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-18 10:51:36 +0100
+Served asset /sp-studio.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" [0m
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sp-studio.jpg" for 127.0.0.1 at 2012-10-18 10:57:52 +0100
+Served asset /sp-studio.jpg - 304 Not Modified (0ms)
