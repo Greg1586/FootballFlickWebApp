@@ -1,6 +1,16 @@
-<h1>Football Flick</h1>
-<% @homes.each do |home| %>
-    <div class="five columns">
-        <div class="row"><%= home.title %></div><%= image_tag home.icon %>
+<div class="container">
+    <div id="header"><h1>Football Flick</h1></div>
+
+    <div id="videos" class="container">
+        <% @homes.each do |home| %>
+            <div class="four columns no-overflow">
+                <div class="row"><%= home.title %></div>
+                <div class="row thumbnail-photo"><%= image_tag home.icon %></div>
+            </div>
+        <%end%>
     </div>
-<%end%>
+
+    <div id="footer">
+        <br/>footer
+    </div>
+</div>
