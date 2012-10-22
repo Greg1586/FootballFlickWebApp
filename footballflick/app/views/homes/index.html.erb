@@ -3,9 +3,15 @@
 
     <div id="videos" class="container">
         <% @homes.each do |home| %>
-            <div class="three columns no-overflow">
+            <div class="five columns" align="center">
+              <a href="/videos/1"><!--pass in clicked id-->
                 <div class="row"><%= home.title %></div>
-                <div class="row thumbnail-photo"><%= image_tag home.icon %></div>
+              </a>
+              <div class="row thumbnail-photo">
+                <a href="/videos/1">
+                  <%= image_tag home.icon %>
+                </a>
+              </div>
             </div>
         <%end%>
     </div>
