@@ -5,29 +5,11 @@ class VideosController < ApplicationController
 
   def show
     def show
-      @video=Video.find(params[:id])
+      @videos=Video.find(params[:id])
 
     end
 
   end
 
-  def new
 
-  end
-
-  def create
-
-  end
-
-  def edit
-
-  end
-
-  def update
-
-  end
-
-  def destroy
-
-  end
 end

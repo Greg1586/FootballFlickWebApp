@@ -2,15 +2,13 @@
     <div id="header" align="center"><h1>Football Flick</h1></div>
 
     <div id="videos" class="container">
-        <% @homes.each do |home| %>
+        <% @videos.each do |video| %>
             <div class="five columns" align="center">
-              <a href="/videos/1"><!--pass in clicked id-->
 
-              </a>
               <div class="row thumbnail-photo">
-                <%= link_to home.title,home_path(home) %>
+                <%= link_to video.title,video_path(video) %>
 
-                  <%= link_to image_tag(home.icon) ,home_path(home) %>
+                  <%= link_to image_tag(video.icon) ,video_path(video) %>
 
               </div>
             </div>
