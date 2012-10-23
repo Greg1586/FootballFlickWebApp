@@ -1,3 +1,3 @@
 class Video < ActiveRecord::Base
-  attr_accessible :title
+  attr_accessible :icon, :title
 end
