@@ -1,109 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42fd52cc-e68b-446b-bff6-91cf825ab664" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.generators" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/footballflick.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/README.rdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/rails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/flowplayer-3.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/home.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/play_videos.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/videos.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/home.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/play_videos.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/videos.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/controllers/application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/controllers/videos_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/homes_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/play_videos_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/videos_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/mailers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/models/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/models/video.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/layouts/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/videos/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/videos/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/application.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/database.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/development.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/production.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/secret_token.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/wrap_parameters.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/development.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121017145403_create_homes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121022123240_create_videos.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121023161331_add_column_to_video_table.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/doc/README_FOR_APP" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/lib/assets/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/lib/tasks/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/log/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/log/development.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/422.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/flowplayer-3.1.5.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/flowplayer.controls-3.1.5.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/tutorial1.MOV" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/tutorialavi1.avi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/video1.MP4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/script/rails" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/homes.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/videos.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/homes_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/play_videos_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/videos_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/integration/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/performance/browsing_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/homes_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/play_videos_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/videos_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/home_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/video_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/sass/f46f7ecd2d58218b89828fced5903cc351a017e0/home.css.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/tmp/pids/server.pid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/assets/javascripts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/assets/stylesheets/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/plugins/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/.idea/modules.xml" afterPath="$PROJECT_DIR$/footballflick/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/.idea/workspace.xml" afterPath="$PROJECT_DIR$/footballflick/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="42fd52cc-e68b-446b-bff6-91cf825ab664" name="Default" comment="" />
     <ignored path="FootballFlickWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,7 +21,17 @@
     <favorites_list name="FootballFlickWebApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="9" selection-start="467" selection-end="467" vertical-scroll-proportion="0.310219">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -144,6 +52,7 @@
         <option value="$PROJECT_DIR$/footballflick/config/routes.rb" />
         <option value="$PROJECT_DIR$/footballflick/app/controllers/videos_controller.rb" />
         <option value="$PROJECT_DIR$/footballflick/app/views/videos/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -178,16 +87,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +103,44 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FootballFlickWebApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballFlickWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballFlickWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballFlickWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballFlickWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -334,13 +271,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="946" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25612745" sideWeight="0.6702002" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25612745" sideWeight="0.6702002" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -414,6 +351,13 @@
     <entry file="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="467" selection-end="467" vertical-scroll-proportion="0.310219">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
