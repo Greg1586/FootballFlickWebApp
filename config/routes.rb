@@ -1,6 +1,8 @@
 Footballflick::Application.routes.draw do
 
-  resources :homes
+  root :to => 'homepages#index'
+  
+  resources :homepages
   resources :videos
   # The priority is based upon order of creation:
   # first created -> highest priority.

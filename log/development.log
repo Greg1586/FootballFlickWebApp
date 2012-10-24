@@ -20491,3 +20491,1417 @@ Served asset /videos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-24 12:16:18 +0100
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Oct 24 15:23:48 +0100 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:24:02 +0100 2012
+
+LoadError (Expected /Users/maidini/FootballFlickWebApp/app/controllers/homepages_controller.rb to define HomepagesController):
+  activesupport (3.2.8) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1364992058__call__4__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:24:27 +0100 2012
+
+ActionController::RoutingError (uninitialized constant ApplicationControllers):
+  app/controllers/homepages_controller.rb:1
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.2ms)
+Compiled base.css  (0ms)  (pid 2198)
+Compiled layout.css  (0ms)  (pid 2198)
+Compiled skeleton.css  (0ms)  (pid 2198)
+Compiled application.css  (56ms)  (pid 2198)
+Compiled jquery.js  (4ms)  (pid 2198)
+Compiled jquery_ujs.js  (0ms)  (pid 2198)
+Compiled tabs.js  (0ms)  (pid 2198)
+Compiled application.js  (65ms)  (pid 2198)
+Completed 200 OK in 156ms (Views: 155.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /videos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /base.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /tabs.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:32 +0100 2012
+Served asset /videos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:24:33 +0100 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:33:47 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionController::RoutingError (No route matches {:action=>"compareExcel", :controller=>"homepages"}):
+  app/views/homepages/index.html.erb:1:in `_app_views_homepages_index_html_erb___1463795180_2256207860'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:34:33 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionController::RoutingError (No route matches {:action=>"videos_url", :controller=>"homepages"}):
+  app/views/homepages/index.html.erb:1:in `_app_views_homepages_index_html_erb___1463795180_2255333640'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:36:31 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:04 +0100 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:06 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:35 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:41:37 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" [0m
+  Rendered videos/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 29ms (Views: 9.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:41:38 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" 
+  Rendered videos/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:41:42 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/videos/2" for 127.0.0.1 at Wed Oct 24 15:41:44 +0100 2012
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered videos/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    15:           </a>
+    16:         </div>
+    17:         <div id="description-box" class="box">
+    18:             <p><%= @videos.description%> </p>
+    19:         </div>
+    20:     </div>
+    21: </div>
+  app/views/videos/show.html.erb:18:in `_app_views_videos_show_html_erb__103679421_2255085940'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/videos/2" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:02 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:05 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:06 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" 
+  Rendered videos/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:56:11 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" [0m
+  Rendered videos/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:56:14 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" 
+  Rendered videos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:15 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:56:16 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:56:53 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:06 +0100 2012
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" [0m
+  Rendered videos/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:57:08 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" 
+  Rendered videos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:09 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:57:10 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:57:10 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:57:10 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:57:10 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" [0m
+  Rendered videos/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /play_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flowplayer-3.1.4.min.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /flowplayer-3.1.4.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/play_videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /play_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial2.jpg" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /tutorial2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial3.jpg" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /tutorial3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial1.jpg" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /tutorial1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tutorial4.jpg" for 127.0.0.1 at Wed Oct 24 15:57:11 +0100 2012
+Served asset /tutorial4.jpg - 304 Not Modified (0ms)
