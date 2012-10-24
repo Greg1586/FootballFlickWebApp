@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/footballflick.iml" filepath="$PROJECT_DIR$/.idea/footballflick.iml" />
+      <module fileurl="file://$USER_HOME$/Projects/FootballFlickWebApp/footballflick/.idea/footballflick.iml" filepath="$USER_HOME$/Projects/FootballFlickWebApp/footballflick/.idea/footballflick.iml" />
     </modules>
   </component>
 </project>

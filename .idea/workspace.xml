@@ -2,19 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42fd52cc-e68b-446b-bff6-91cf825ab664" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/C62/1D0/sprockets%2F1638f87db345b13872695759502b54fe" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/C62/1D0/sprockets%2F1638f87db345b13872695759502b54fe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/C7A/170/sprockets%2Ff1663d34d4b6003379113df98f1433a5" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/C7A/170/sprockets%2Ff1663d34d4b6003379113df98f1433a5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/CC5/AC0/sprockets%2F73cf352579b646a784a2780873ee5ea8" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/CC5/AC0/sprockets%2F73cf352579b646a784a2780873ee5ea8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/footballflick/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/footballflick/tmp/pids/server.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/footballflick/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/config/routes.rb" afterPath="$PROJECT_DIR$/footballflick/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/log/development.log" afterPath="$PROJECT_DIR$/footballflick/log/development.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/footballflick.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/README.rdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/images/tutorial4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/flowplayer-3.1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/home.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/play_videos.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/javascripts/videos.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/home.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/play_videos.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/assets/stylesheets/videos.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/controllers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/controllers/videos_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/homes_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/play_videos_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/helpers/videos_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/mailers/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/models/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/models/video.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/layouts/application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/videos/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/app/views/videos/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/environments/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/secret_token.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/locales/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/config/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/development.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121017145403_create_homes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121022123240_create_videos.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/migrate/20121023161331_add_column_to_video_table.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/db/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/doc/README_FOR_APP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/lib/assets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/lib/tasks/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/log/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/log/development.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/flowplayer-3.1.5.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/flowplayer.controls-3.1.5.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/tutorial1.MOV" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/tutorialavi1.avi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/public/tutorialVideos/video1.MP4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/script/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/homes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/fixtures/videos.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/homes_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/play_videos_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/functional/videos_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/integration/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/performance/browsing_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/homes_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/play_videos_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/helpers/videos_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/home_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/test/unit/video_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/tmp/cache/sass/f46f7ecd2d58218b89828fced5903cc351a017e0/home.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/tmp/pids/server.pid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/assets/javascripts/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/assets/stylesheets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footballflick/vendor/plugins/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/.idea/modules.xml" afterPath="$PROJECT_DIR$/footballflick/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footballflick/.idea/workspace.xml" afterPath="$PROJECT_DIR$/footballflick/.idea/workspace.xml" />
     </list>
     <ignored path="FootballFlickWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,99 +119,11 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FootballFlickWebApp" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="homes_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/test/functional/homes_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="42" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/app/assets/stylesheets/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/footballflick/app/views/videos/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.12096774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videos_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/app/controllers/videos_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/app/views/homes/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homes_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/app/controllers/homes_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="9" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/config/boot.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballflick/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -178,7 +178,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,240 +203,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="videos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballFlickWebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballflick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +269,9 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
@@ -512,7 +289,9 @@
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -536,16 +315,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: FootballFlickWebApp" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: FootballFlickWebApp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -560,12 +336,11 @@
     <frame x="0" y="22" width="1680" height="946" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32979977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25275397" sideWeight="0.6702002" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25612745" sideWeight="0.6702002" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -573,7 +348,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32979977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -601,6 +378,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -610,6 +388,7 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
@@ -632,114 +411,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footballflick/.idea/footballflick.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/assets/stylesheets/home.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/models/home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/test/functional/homes_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/controllers/homes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/views/homes/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/controllers/videos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballflick/app/views/videos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.12096774">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>

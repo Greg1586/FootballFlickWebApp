@@ -1,0 +1,22 @@
+<div class="container">
+    <div id="videos-page" class="sixteen columns" align="center">
+        <div id="video-title" align="center">
+          <h3>this page</h3>
+        </div>
+        <div id="video-players" align="center">
+          <a href="/tutorialVideos/tutorial1.MOV" class="player" id="player">
+            <object width="200" height="200" id="player_api" name="player_api" data="/flowplayer-3.1.5.swf" type="application/x-shockwave-flash">
+              <param name="allowfullscreen" value="true">
+              <param name="allowscriptaccess" value="always">
+              <param name="quality" value="high">
+              <param name="bgcolor" value="#000000">
+              <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:false,&quot;autoBuffering&quot;:true,&quot;url&quot;:&quot;/tutorialVideos/tutorial1.MOV&quot;},&quot;playerId&quot;:&quot;player&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:false,&quot;autoBuffering&quot;:true,&quot;url&quot;:&quot;/tutorialVideos/tutorial1.MOV&quot;}]}">
+            </object>
+          </a>
+        </div>
+        <div id="description-box" class="box">
+            <p><%= @videos.description%> </p>
+        </div>
+    </div>
+</div>
+<!--style="display:block;width:425px;height:300px;margin:10px auto"-->
