@@ -30,3 +30,8 @@
     width: 50%!important;
     float: left!important;
 }
+
+.button-full{
+    float: left!important;
+    width: 100%!important;
+}
