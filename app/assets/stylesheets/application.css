@@ -14,3 +14,19 @@
  *= require layout
  *= require skeleton
  */
+
+.footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:32px;
+}
+
+.footer-padding{
+    padding-bottom:32px!important;
+}
+
+.override-button{
+    width: 50%!important;
+    float: left!important;
+}
