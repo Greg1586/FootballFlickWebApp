@@ -1,18 +1,29 @@
-<!--<div class="container footer-padding">-->
-  <!--<div id="home-page" class="sixteen columns" align="center">-->
-    <!--main area-->
-  <!--</div>-->
-<!--</div>-->
-<!--<%= button_to  "Video Of the test", videos_url, :method => "get"%>-->
-<!--<div id="buttons" class="footer">-->
-  <!--<form action="/videos" class="button_to override-button" method="get">-->
-      <!--<input type="submit" value="Video Of the Week" class="button-full">-->
-  <!--</form>-->
-  <!--<form action="/videos" class="button_to override-button" method="get">-->
-      <!--<input type="submit" value="John vids" class="button-full">-->
-  <!--</form>-->
-<!--</div>-->
-
 <div data-role="header">
-  <h1>Page Title</h1>
+  <h1 color="white">Football Flick</h1>
 </div>
+
+<div data-role="content" class = "ui-content" role="main">
+  <div id="videos" class="container">
+    <% @videos.each do |video| %>
+        <div class="five columns" align="center">
+
+          <div class="row thumbnail-photo">
+            <%= link_to video.title,video_path(video) %>
+
+            <%= link_to image_tag(video.icon) ,video_path(video) %>
+
+          </div>
+        </div>
+    <%end%>
+  </div>
+</div>
+
+<div data-role="footer" data-id="foo1" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup ui-fixed-hidden" role="contentinfo">
+  <div data-role="navbar" class="ui-navbar ui-mini" role="navigation"">
+  <ul>
+    <li><a href="#">One</a></li>
+    <li><a href="#">Two</a></li>
+    <li><a href="#">Three</a></li>
+  </ul>
+</div><!-- /navbar -->
+</div><!-- /footer -->
