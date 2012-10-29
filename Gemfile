@@ -28,7 +28,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'skeleton-rails'
+#gem 'skeleton-rails'
 
 
 # To use ActiveModel has_secure_password
