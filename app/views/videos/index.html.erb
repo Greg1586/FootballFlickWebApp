@@ -7,9 +7,14 @@
     <% @videos.each do |video| %>
         <div class="five columns" align="center">
 
-          <div class="row thumbnail-photo">
-            <%= link_to video.title,video_path(video) %>
-            <%= link_to image_tag(video.icon) ,video_path(video) %>
+          <div class="row thumbnail-photo wrapper">
+            <a href=<%=video_path(video) %>>
+              <img src="/assets/<%= video.icon %>">
+              </img>
+            </a>
+            <div class='description'>
+              <p class='description_content'><%= link_to video.title%></p>
+            </div>
           </div>
 
         </div>
