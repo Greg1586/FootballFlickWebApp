@@ -1,30 +1,30 @@
+<%= javascript_include_tag 'swfobject' %>
 <div class="container footer-padding">
     <div id="videos-page" class="sixteen columns" align="center">
         <div id="video-title" align="center">
           <h3>this page</h3>
         </div>
-        <div id="video-players" align="center">
-          <a href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv" class="player" id="player">
-            <object width="200" height="200" id="player_api" name="player_api" data="/flowplayer-3.1.5.swf" type="application/x-shockwave-flash">
-              <param name="allowfullscreen" value="true">
-              <param name="allowscriptaccess" value="always">
-              <param name="quality" value="high">
-              <param name="bgcolor" value="#000000">
-              <param name="flashvars" value="config={&quot;playerId&quot;:&quot;player&quot;,&quot;clip&quot;:{&quot;url&quot;:&quot;http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv&quot;},&quot;playlist&quot;:[{&quot;url&quot;:&quot;http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv&quot;}]}">
-              <!--<param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:false,&quot;autoBuffering&quot;:true,&quot;url&quot;:&quot;/tutorialVideos/tutorial1.MOV&quot;},&quot;playerId&quot;:&quot;player&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:false,&quot;autoBuffering&quot;:true,&quot;url&quot;:&quot;/tutorialVideos/tutorial1.MOV&quot;}]}">-->
-            </object>
-          </a>
-        </div>
+      <script type='text/javascript' src='/tutorialVideos/jwplayer.js'></script>
+      <div id='mediaplayer'></div>
+      <script type="text/javascript">
+          jwplayer('mediaplayer').setup({
+              'flashplayer': '/jwplayer/player.swf',
+              'id': 'playerID',
+              'width': '480',
+              'height': '270',
+              'file': '/tutorialVideos/VIDEO0041.mp4',
+              'image': '/thumbs/bunny.jpg',
+              'plugins': 'viral'
+          });
+      </script>
         <div id="description-box" class="box">
             <p><%= @videos.description%> </p>
         </div>
     </div>
 </div>
 
-<video width="320" height="240" controls="controls">
-  <source src="/tutorialVideos/VIDEO0041.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
 
 <div id="buttons" class="footer">
   <form>

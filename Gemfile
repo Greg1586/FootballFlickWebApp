@@ -28,8 +28,7 @@ end
 
 gem 'jquery-rails'
 
-#gem 'skeleton-rails'
-
+gem 'jw_player_helper'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
