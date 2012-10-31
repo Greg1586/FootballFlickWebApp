@@ -30,6 +30,8 @@ gem 'jquery-rails'
 
 gem 'jw_player_helper'
 
+gem 'simplecov', :require => false, :group => :test
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
