@@ -3,7 +3,7 @@ module JwPlayerOnRails
    # This counter is used to generated unique IDs
     @@player_count = 0
 
-    # This module contains the view helper <tt>jw_player</tt>
+    # This module contains the requests helper <tt>jw_player</tt>
     def jw_player path, options = {}
       increment_player_count
 

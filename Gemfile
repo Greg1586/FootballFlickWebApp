@@ -46,3 +46,7 @@ gem 'simplecov', :require => false, :group => :test
 
 # To use debugger
 # gem 'debugger'
+group :test do
+  gem "capybara"
+  gem "launchy"
+end
