@@ -10,16 +10,11 @@ gem 'rspec-rails'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
   gem 'uglifier', '>= 1.0.3'
 end
 
 group :development, :test do
   gem 'sqlite3'
-  #gem 'rspec-rails', '2.11.0'
 end
 
 group :production do
@@ -30,7 +25,11 @@ gem 'jquery-rails'
 
 gem 'jw_player_helper'
 
-gem 'simplecov', :require => false, :group => :test
+group :test do
+  gem "capybara"
+  gem "launchy"
+  gem 'simplecov', :require => false
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -46,7 +45,6 @@ gem 'simplecov', :require => false, :group => :test
 
 # To use debugger
 # gem 'debugger'
-group :test do
-  gem "capybara"
-  gem "launchy"
-end
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', :platforms => :ruby
