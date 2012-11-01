@@ -32,3 +32,13 @@
     float: left!important;
     width: 100%!important;
 }
+
+.headerLogo{
+    height: 10%;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+.orange-font{
+    color: #FD7B03;
+}
