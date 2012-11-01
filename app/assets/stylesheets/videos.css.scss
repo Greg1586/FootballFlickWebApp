@@ -24,7 +24,6 @@
 }
 
 div.wrapper{
-  float:left; /* important */
   position:relative; /* important(so we can absolutely position the description div */
 }
 div.description{
@@ -36,7 +35,8 @@ div.description{
   background-color:black;
   font-family: 'tahoma';
   font-size:15px;
-  color:white;
+  //color:white;
+  text-shadow: none !important;
   opacity:0.6; /* transparency */
   filter:alpha(opacity=60); /* IE transparency */
 }
@@ -45,5 +45,5 @@ p.description_content{
   margin:0px;
 }
 .homepage-color{
-  background-color:#b0c4de;
+  background-color:white;
 }

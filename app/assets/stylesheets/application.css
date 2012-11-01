@@ -35,10 +35,10 @@
 
 .headerLogo{
     height: 10%;
-    background-color: #ff0000;
+    background-color: #ffffff;
     text-align: center;
 }
 
 .orange-font{
-    color: #FD7B03;
+    color: #FD7B03 !important;
 }
