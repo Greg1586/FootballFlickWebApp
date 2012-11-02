@@ -1,5 +1,9 @@
-<div data-role="header">
-  <h1 color="white">Football Flick</h1>
+<!--<div data-role="header">-->
+  <!--<h1 color="white">Football Flick</h1>-->
+<!--</div>-->
+<div class="homepage-color">
+<div class="row eight columns headerLogo">
+  <img src="/assets/HeaderLogo.png" height="50px" />
 </div>
 
 <div data-role="content" class = "ui-content" role="main">
@@ -7,11 +11,10 @@
     <% @videos.each do |video| %>
         <div class="five columns" align="center">
 
-          <div class="row thumbnail-photo wrapper">
-            <a style="text-decoration:none" href="<%= video_path(video)%>">
-              <img src="/assets/<%= video.icon %>">
-              </img>
-              <div class='description'>
+          <div class="row thumbnail-photo wrapper" align="center">
+            <a style="text-decoration:none" class="orange-font" href="<%= video_path(video)%>">
+              <img src="/assets/<%= video.icon %>"/>
+              <div class='description orange-font'>
                 <p class='description_content'><%= video.title %></p>
               </div>
             </a>
@@ -22,12 +25,12 @@
   </div>
 </div>
 
-<div data-role="footer" data-id="foo1" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup ui-fixed-hidden" role="contentinfo">
-  <div data-role="navbar" class="ui-navbar ui-mini" role="navigation"">
-  <ul>
-    <li><a href="#">One</a></li>
-    <li><a href="#">Two</a></li>
-  </ul>
-</div><!-- /navbar -->
-</div><!-- /footer -->
+    <div data-role="footer" data-id="foo1" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup ui-fixed-hidden" role="contentinfo">
+      <div data-role="navbar" class="ui-navbar ui-mini" role="navigation">
+      <ul>
+        <li><a class="orange-font" href="/">Back</a></li>
+        <li><a class="orange-font" href="/videos/1">Video Of The Week</a></li>
+      </ul>
+    </div><!-- /navbar -->
+    </div><!-- /footer -->
 </div>
