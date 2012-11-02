@@ -1,7 +1,12 @@
+<div class="homepage-color">
+  <div class="row eight columns headerLogo">
+    <img src="/assets/HeaderLogo.png" height="50px" />
+  </div>
+
 <div class="container footer-padding">
     <div id="videos-page" class="sixteen columns" align="center">
         <div id="video-title" align="center">
-          <h3><%= @videos.title%></h3>
+          <h3 class="orange-font"><%= @videos.title%></h3>
         </div>
         <div id="video"></div>
 
@@ -18,3 +23,12 @@
   </form>
 </div>
 <!--style="display:block;width:425px;height:300px;margin:10px auto"-->
+
+<div data-role="footer" data-id="foo1" data-position="fixed" class="myFooter" role="contentinfo">
+  <div data-role="navbar" class="ui-navbar ui-mini" role="navigation">
+    <ul>
+      <li><a class="orange-font" href="/">Back</a></li>
+      <li><a class="orange-font" href="/videos/1">Video Of The Week</a></li>
+    </ul>
+  </div><!-- /navbar -->
+</div>
