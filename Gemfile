@@ -23,8 +23,6 @@ end
 
 gem 'jquery-rails'
 
-gem 'jw_player_helper'
-
 group :test do
   gem "capybara"
   gem "launchy"
