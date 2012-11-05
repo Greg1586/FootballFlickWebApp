@@ -25,9 +25,9 @@
               } else {
                   width = screen.width * 0.7;
               }
-              ;
+              var height = width * 0.57
               lc({'widget_id':'1711429421'}).isReady(function () {
-                  lc(this).getByIndex(0).getPlayer({'player_id':379, 'width':width, 'height':240}).appendPlayerTo({'id':'video'});
+                  lc(this).getByIndex(0).getPlayer({'player_id':379, 'width':width, 'height':height}).appendPlayerTo({'id':'video'});
               });
           }
       }
