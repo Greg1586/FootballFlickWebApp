@@ -19,6 +19,9 @@
   font-size: small;
   border-radius: 5px;
   overflow-x:hidden;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
 }
 descriptionbox {
   width: 420px;
