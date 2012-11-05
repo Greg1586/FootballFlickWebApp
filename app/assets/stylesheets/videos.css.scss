@@ -2,14 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.no-overflow{
-  overflow-x:hidden;
+.no-overflow {
+  overflow-x: hidden;
 }
 
 .box {
   //border: 3px solid black;
   background-color: #808080;
-  width:420px;
+  width: auto;
+  max-width: 420px;
   height: 100px;
   text-align: left;
   padding-left: 10px;
@@ -18,15 +19,13 @@
   padding-bottom: 10px;
   font-size: small;
   border-radius: 5px;
-  overflow-x:hidden;
-  box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
 }
+
 descriptionbox {
   width: 420px;
   //overflow: auto;
 }
+
 videos-page {
   width: 420px;
   //overflow: auto;
@@ -36,59 +35,63 @@ videos-page {
   vertical-align: middle;
   height: 100%;
 }
-  #scale-up {
+
+#scale-up {
   height: 200px;
   width: 700px;
 }
+
 #scale-down {
   height: 200px;
   width: 100px;
 }
 
-div.wrapper{
-  position:relative; /* important(so we can absolutely position the description div */
+div.wrapper {
+  position: relative; /* important(so we can absolutely position the description div */
 }
-div.description{
-  position:relative; /* absolute position (so we can position it where we want)*/
 
+div.description {
+  position: relative; /* absolute position (so we can position it where we want)*/
 
-/* styling bellow */
-  background-color:black;
-  font-size:15px;
+  /* styling bellow */
+  background-color: black;
+  font-size: 15px;
   //color:white;
   text-shadow: none !important;
-  opacity:0.6; /* transparency */
-  filter:alpha(opacity=60); /* IE transparency */
+  opacity: 0.6; /* transparency */
+  filter: alpha(opacity = 60); /* IE transparency */
   font-family: arial;
 }
 
-
-p.description_content{
-  padding:10px;
-  margin:0px;
+p.description_content {
+  padding: 10px;
+  margin: 0px;
   font-family: arial;
 }
-p.description_content:hover{
-  background-color:#808080;
-}
-.homepage-color{
-  background-color:white;
+
+p.description_content:hover {
+  background-color: #808080;
 }
 
-.myFooter{
+.homepage-color {
+  background-color: white;
+}
+
+.myFooter {
   width: 100%;
   height: 40px;
-  position:fixed; bottom:0 !important;
+  position: fixed;
+  bottom: 0 !important;
 }
 
-.button-size{
+.button-size {
   width: 50%;
-  background-color:black;
+  background-color: black;
   height: 40px;
   float: left;
 
-  border-right-width:2px;
-  border-right-color:#808080;
+  border-right-width: 2px;
+  border-right-color: #808080;
   border-right-style: solid;
   border-width: 2px;
 
@@ -98,14 +101,15 @@ p.description_content:hover{
   font-family: arial;
 
 }
-.button-size:hover{
+
+.button-size:hover {
   width: 50%;
-  background-color:#696969;
+  background-color: #696969;
   height: 40px;
   float: left;
 
-  border-right-width:2px;
-  border-right-color:#808080;
+  border-right-width: 2px;
+  border-right-color: #808080;
   border-right-style: solid;
   border-width: 2px;
 
@@ -114,11 +118,11 @@ p.description_content:hover{
   border-radius: 5px;
   font-family: arial;
 
-
 }
-.button-size-two{
+
+.button-size-two {
   width: 49.5%;
-  background-color:black;
+  background-color: black;
   height: 40px;
   float: left;
   line-height: 40px;
@@ -128,9 +132,9 @@ p.description_content:hover{
 
 }
 
-.button-size-two:hover{
+.button-size-two:hover {
   width: 49.5%;
-  background-color:#696969;
+  background-color: #696969;
   height: 40px;
   float: left;
   line-height: 40px;
@@ -138,12 +142,13 @@ p.description_content:hover{
   border-radius: 5px;
   font-family: arial;
 }
-.titlesize{
+
+.titlesize {
   font-size: xx-large;
 
 }
 
-.fontstyle{
+.fontstyle {
   font-family: arial;
 }
 
