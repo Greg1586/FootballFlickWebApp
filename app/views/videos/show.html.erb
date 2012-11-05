@@ -1,40 +1,32 @@
 <div class="homepage-color">
   <div class="row eight columns headerLogo">
-    <img src="/assets/HeaderLogo.png" height="50px" />
+    <img src="/assets/HeaderLogo.png" height="50px"/>
   </div>
 
-<div class="container footer-padding">
+  <div class="container footer-padding">
     <div id="videos-page" class="sixteen columns" align="center">
-        <div id="video-title" align="center">
-          <h3 class="orange-font titlesize fontstyle"><%= @videos.title%></h3>
-        </div>
-        <div id="video"></div>
+      <div id="video-title" align="center">
+        <h3 class="orange-font titlesize fontstyle"><%= @videos.title %></h3>
+      </div>
+      <div id="video"></div>
     </div>
-  <div  id=" descriptionbox" class="sixteen columns" align="center">
-      <div id="description-box" class="fontstyle" >
-        <p class="box"><%= @videos.description%></p>
-     </div>
+    <div id=" descriptionbox" class="sixteen columns" align="center">
+      <div id="description-box" class="fontstyle">
+        <p class="box"><%= @videos.description %></p>
+      </div>
+    </div>
   </div>
-</div>
 
-<!--<div id="buttons" class="footer">-->
-  <!--<form>-->
-    <!--<button id="vow" class="override-button">Video of the week</button>-->
-    <!--<button id="jv" class="override-button">John's video</button>-->
-  <!--</form>-->
-<!--</div>-->
-<!--style="display:block;width:425px;height:300px;margin:10px auto"-->
-
-<div class="myFooter">
-  <div class="button-size">
+  <div class="myFooter">
+    <div class="button-size">
       <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
+        <span align="center">Back</span>
+      </a>
+    </div>
+    <div class="button-size-two">
+      <a href="/videos/1" style="text-decoration: none" class="orange-font nav-button">
         <span align="center">Video of the week</span>
       </a>
+    </div>
   </div>
-  <div class="button-size-two">
-  <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
-    <span align="center">Back</span>
-  </a>
-  </div>
-</div>
 </div>

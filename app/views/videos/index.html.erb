@@ -1,39 +1,37 @@
-<!--<div data-role="header">-->
-  <!--<h1 color="white">Football Flick</h1>-->
-<!--</div>-->
 <div class="homepage-color">
-<div class="row eight columns headerLogo">
-  <img src="/assets/HeaderLogo.png" height="50px" />
-</div>
-
-<div data-role="content" class = "ui-content" role="main">
-  <div id="videos" class="container">
-    <% @videos.each do |video| %>
-        <div class="five columns" align="center">
-
-          <div class="row thumbnail-photo wrapper" align="center">
-            <a style="text-decoration:none" class="orange-font fontstyle" href="<%= video_path(video)%>">
-              <img src="/assets/<%= video.icon %>"/>
-              <div class='description orange-font'>
-                <p class='description_content fontstyle'><%= video.title %></p>
-              </div>
-            </a>
-          </div>
-
-        </div>
-    <%end%>
+  <div class="row eight columns headerLogo">
+    <img src="/assets/HeaderLogo.png" height="50px"/>
   </div>
-</div>
+
+  <div data-role="content" class="ui-content" role="main">
+    <div id="videos" class="container">
+      <% @videos.each do |video| %>
+          <div class="five columns" align="center">
+
+            <div class="row thumbnail-photo wrapper" align="center">
+              <a style="text-decoration:none" class="orange-font fontstyle" href="<%= video_path(video) %>">
+                <img src="/assets/<%= video.icon %>"/>
+
+                <div class='description orange-font'>
+                  <p class='description_content fontstyle'><%= video.title %></p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+      <% end %>
+    </div>
+  </div>
 
   <div class="myFooter">
     <div class="button-size">
-      <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
-        <span align="center">Video of the week</span>
+      <a href="/" style="text-decoration: none" class="orange-font nav-button">
+        <span align="center">Back</span>
       </a>
     </div>
     <div class="button-size-two ">
-      <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
-        <span align="center">Back</span>
+      <a href="/videos/1" style="text-decoration: none" class="orange-font nav-button">
+        <span align="center">Video of the week</span>
       </a>
     </div>
   </div>
