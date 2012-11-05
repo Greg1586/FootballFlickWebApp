@@ -9,6 +9,15 @@
 .box {
   //border: 3px solid black;
   background-color: #808080;
+  width:400px;
+  height: 100px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: small;
+border-radius: 5px;
 }
 
 .img {
@@ -29,21 +38,30 @@ div.wrapper{
 }
 div.description{
   position:absolute; /* absolute position (so we can position it where we want)*/
-  bottom:29px; /* position will be on bottom */
+
   left:20px;
   width:84%;
 /* styling bellow */
   background-color:black;
-  font-family: 'tahoma';
   font-size:15px;
   //color:white;
   text-shadow: none !important;
   opacity:0.6; /* transparency */
   filter:alpha(opacity=60); /* IE transparency */
+  font-family: arial;
 }
+
+
 p.description_content{
   padding:10px;
   margin:0px;
+  font-family: arial;
+}
+p.description_content:hover{
+  padding:10px;
+  margin:0px;
+  font-family: arial;
+  background-color:#808080;
 }
 .homepage-color{
   background-color:white;
@@ -68,8 +86,28 @@ p.description_content{
 
   line-height: 40px;
   text-align: center;
-}
+  border-radius: 5px;
+  font-family: arial;
 
+}
+.button-size:hover{
+  width: 50%;
+  background-color:#696969;
+  height: 40px;
+  float: left;
+
+  border-right-width:2px;
+  border-right-color:#808080;
+  border-right-style: solid;
+  border-width: 2px;
+
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: arial;
+
+
+}
 .button-size-two{
   width: 49.5%;
   background-color:black;
@@ -77,4 +115,32 @@ p.description_content{
   float: left;
   line-height: 40px;
   text-align: center;
+  border-radius: 5px;
+  font-family: arial;
+
 }
+
+.button-size-two:hover{
+  width: 49.5%;
+  background-color:#696969;
+  height: 40px;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: arial;
+}
+.titlesize{
+  font-size: xx-large;
+
+}
+
+.fontstyle{
+  font-family: arial;
+}
+
+.nav-button {
+  display: block;
+}
+
+

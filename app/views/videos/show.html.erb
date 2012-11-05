@@ -6,11 +6,11 @@
 <div class="container footer-padding">
     <div id="videos-page" class="sixteen columns" align="center">
         <div id="video-title" align="center">
-          <h3 class="orange-font"><%= @videos.title%></h3>
+          <h3 class="orange-font titlesize fontstyle"><%= @videos.title%></h3>
         </div>
         <div id="video"></div>
 
-        <div id="description-box" class="box">
+        <div id="description-box" class="box fontstyle" >
             <p><%= @videos.description%></p>
         </div>
     </div>
@@ -26,12 +26,12 @@
 
 <div class="myFooter">
   <div class="button-size">
-      <a href="/videos" style="text-decoration: none" class="orange-font">
+      <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
         <span align="center">Video of the week</span>
       </a>
   </div>
   <div class="button-size-two">
-  <a href="/videos" style="text-decoration: none" class="orange-font">
+  <a href="/videos" style="text-decoration: none" class="orange-font nav-button">
     <span align="center">Back</span>
   </a>
   </div>
