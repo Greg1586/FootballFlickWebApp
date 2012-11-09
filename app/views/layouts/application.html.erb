@@ -17,17 +17,16 @@
       lc.settings = { 'account_id':1584 };
       $(document).ready(function () {
           lc({'tag':'Football'}).isReady(function () {
-              var i = 0;
               var listLength = lc(this).length;
               var listOfWidgets = lc(this);
-              while (i < listLength) {
+              for (var i = 0; i < listLength; i++) {
                   lc(this).getByIndex(i).getThumbnail({'width':260, 'height':120})
-                      .appendTo($('#video'))
-                      .click(function () {
-                          $("#video").empty();
-                          listOfWidgets.getByWidgetId($(this).attr("widget_id")).getPlayer({'player_id':379, 'width':420, 'height':240}).appendPlayerTo({'id':'video'}).show();
-                      });
-                  i++;
+                          .appendTo($('#video'))
+                          .click(function () {
+                              $("#video").empty();
+                              listOfWidgets.getByWidgetId($(this).attr("widget_id"))
+                                      .getPlayer({'player_id':379, 'width':420, 'height':240}).appendPlayerTo({'id':'video'}).show();
+                          });
               }
           });
       });
