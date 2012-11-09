@@ -4,6 +4,7 @@ Footballflick::Application.routes.draw do
   
   resources :homepages
   resources :videos
+  resources :videoofweeks
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
