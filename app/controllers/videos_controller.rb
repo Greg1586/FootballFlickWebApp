@@ -5,9 +5,6 @@ class VideosController < ApplicationController
   end
 
   def show
-    #lc_id = params[:id];
-
-  #@videos=Video.find(params[:id])
 
   end
 
