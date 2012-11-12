@@ -139,4 +139,7 @@ p.description_content:hover {
   display: block;
 }
 
-
+.show-spinner {
+  min-height: 240px;
+  background: url(/assets/spinner.gif) center no-repeat;
+}

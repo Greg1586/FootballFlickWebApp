@@ -3,14 +3,14 @@
     <img src="/assets/HeaderLogo.png" height="50px"/>
   </div>
 
-    <div id="video" class="container" align="center">
-      <!--Added the css overlay tile for the video name. will require some css adjustments. But this is basic structure-->
+  <div id="video" class="container" align="center">
+    <!--Added the css overlay tile for the video name. will require some css adjustments. But this is basic structure-->
 
-      <!--<div class='description'>-->
-           <!--<span class='description_content'>Video Title</span>-->
-      <!--</div>-->
+    <!--<div class='description'>-->
+    <!--<span class='description_content'>Video Title</span>-->
+    <!--</div>-->
 
-    </div>
+  </div>
 
   <div class="myFooter">
     <div class="button-size">
@@ -19,10 +19,40 @@
       </a>
     </div>
     <div class="button-size-two ">
-      <a href="/videos/1" style="text-decoration: none" class="orange-font nav-button">
+      <a href="/videoofweeks" style="text-decoration: none" class="orange-font nav-button">
         <span align="center">Video of the week</span>
       </a>
     </div>
   </div>
 
 </div>
+<script type="text/javascript">
+
+    lc.settings = { 'account_id':1584 };
+
+    $(document).ready(function () {
+        lc({'tag':'Football'}).isReady(function () {
+            var listLength = lc(this).length;
+            var listOfWidgets = lc(this);
+            var divTag = document.getElementById('video');
+
+            for (var i = 0; i < listLength; i++) {
+                try {
+                    var divTest = document.createElement("div");
+                    divTest.className = "columns five";
+                    divTest.id = "video-list" + i;
+                    divTag.appendChild(divTest)
+
+                    lc(this).getByIndex(i).getThumbnail({'width':260, 'height':120})
+                            .appendTo(divTest)
+                            .click(function () {
+                                window.location = 'videos/' + $(this).attr("widget_id");
+                            });
+                } catch (e) {
+
+                }
+            }
+        });
+    });
+
+</script>

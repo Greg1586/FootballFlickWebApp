@@ -46,6 +46,11 @@ body {
 }
 
 .orange-font{
-    color: #FD7B03 !important;
+    color: #F77F00 !important;
     font-family: "Arial Black";
+}
+
+.show-spinner {
+    min-height: 240px;
+    background: url(/assets/spinner.gif) center no-repeat;
 }
