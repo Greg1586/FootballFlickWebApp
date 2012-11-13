@@ -12,7 +12,7 @@
     </div>
     <div id="descriptionbox" class="sixteen columns" align="center">
       <div id="description-box" class="fontstyle">
-        <p class="box"></p>
+        <p class="box"><%= @description %></p>
       </div>
     </div>
   </div>
@@ -26,7 +26,6 @@
     $(document).ready(function () {
         lc({'widget_id':path}).isReady(function () {
             lc(this).getByIndex(0).getPlayer({'player_id':379, 'width':420, 'height':240}).appendPlayerTo({'id':'show-videos'});
-
         });
     });
 </script>
