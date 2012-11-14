@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-#gem 'rspec-rails'
+gem 'rspec-rails'
 
 #json parsing for liveclicker
 gem 'httparty'
@@ -32,6 +32,7 @@ group :test do
   gem "capybara"
   gem "launchy"
   gem 'simplecov', :require => false
+  gem "therubyracer"
 end
 
 # To use ActiveModel has_secure_password
