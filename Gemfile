@@ -5,6 +5,7 @@ gem 'rails', '3.2.8'
 #json parsing for liveclicker
 gem 'httparty'
 gem 'json'
+gem 'rspec-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -28,7 +29,6 @@ end
 gem 'jquery-rails'
 
 group :test do
-  gem 'rspec'
   gem "capybara"
   gem "launchy"
   gem 'simplecov', :require => false
