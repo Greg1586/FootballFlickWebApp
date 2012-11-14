@@ -16,7 +16,19 @@
 </head>
 <body class="grass-background">
 
-<%= yield %>
+<div id="page" class="page-padding">
+  <div id="page-container" class="container round-page">
+
+    <div class="row sixteen columns headerLogo round-logo">
+      <a href="/">
+        <img src="/assets/HeaderLogo.png" height="100%" width="80%"/>
+      </a>
+    </div>
+
+    <%= yield %>
+
+  </div>
+</div>
 
 </body>
 </html>
