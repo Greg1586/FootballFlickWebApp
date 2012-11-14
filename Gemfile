@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-gem 'rspec-rails'
 
 #json parsing for liveclicker
 gem 'httparty'
@@ -29,6 +28,7 @@ end
 gem 'jquery-rails'
 
 group :test do
+  gem 'rspec'
   gem "capybara"
   gem "launchy"
   gem 'simplecov', :require => false
