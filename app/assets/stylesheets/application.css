@@ -25,10 +25,6 @@ body {
     height:32px;
 }
 
-.footer-padding{
-    padding-bottom:32px!important;
-}
-
 .override-button{
     width: 50%!important;
     float: left!important;
@@ -43,6 +39,8 @@ body {
     height: 10%;
     background-color: #ffffff;
     text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 .orange-font{
@@ -50,7 +48,15 @@ body {
     font-family: "Arial Black";
 }
 
-.show-spinner {
-    min-height: 240px;
-    background: url(/assets/spinner.gif) center no-repeat;
+.page-padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.round-page{
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
 }
