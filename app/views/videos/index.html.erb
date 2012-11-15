@@ -31,7 +31,7 @@
 
                     var descriptionOverlay = document.createElement("p");
                     descriptionOverlay.className = "description";
-                    descriptionOverlay.textContent = "some stuff";
+                    descriptionOverlay.textContent = lc(this).getByIndex(i).title;
 
                     thumbnailDiv.appendChild(imageDiv);
                     videoListDiv.appendChild(thumbnailDiv);
