@@ -26,20 +26,24 @@
                     var thumbnailDiv = document.createElement("div");
                     thumbnailDiv.className = "video-list-box";
 
+                    var imageDiv = document.createElement("div");
+                    imageDiv.className = "image-container";
+
                     var descriptionOverlay = document.createElement("p");
                     descriptionOverlay.className = "description";
                     descriptionOverlay.textContent = "some stuff";
 
+                    thumbnailDiv.appendChild(imageDiv);
                     videoListDiv.appendChild(thumbnailDiv);
                     videoDiv.appendChild(videoListDiv);
 
                     lc(this).getByIndex(i).getThumbnail({'width':260, 'height':120})
-                            .appendTo(thumbnailDiv)
+                            .appendTo(imageDiv)
                             .click(function () {
                                 window.location = 'videos/' + $(this).attr("widget_id");
                             });
 
-                    thumbnailDiv.appendChild(descriptionOverlay);
+                    imageDiv.appendChild(descriptionOverlay);
                 } catch (e) {
 
                 }
