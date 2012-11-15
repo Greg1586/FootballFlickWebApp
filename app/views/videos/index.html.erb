@@ -15,17 +15,20 @@
         lc({'tag':'Football'}).isReady(function () {
             var listLength = lc(this).length;
             var listOfWidgets = lc(this);
-            var divTag = document.getElementById('video');
+            var videoDiv = document.getElementById('video');
 
             for (var i = 0; i < listLength; i++) {
                 try {
-                    var divTest = document.createElement("div");
-                    divTest.className = "columns five";
-                    divTest.id = "video-list" + i;
-                    divTag.appendChild(divTest)
+                    var videoListDiv = document.createElement("div");
+                    videoListDiv.className = "columns five";
+                    videoListDiv.id = "video-list" + i;
+                    var thumbnailDiv = document.createElement("div");
+                    thumbnailDiv.className = "video-list-box";
+                    videoListDiv.appendChild(thumbnailDiv)
+                    videoDiv.appendChild(videoListDiv)
 
                     lc(this).getByIndex(i).getThumbnail({'width':260, 'height':120})
-                            .appendTo(divTest)
+                            .appendTo(thumbnailDiv)
                             .click(function () {
                                 window.location = 'videos/' + $(this).attr("widget_id");
                             });

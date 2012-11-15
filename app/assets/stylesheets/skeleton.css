@@ -77,7 +77,7 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
+        .container                                  { width: 722px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
         .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
@@ -89,7 +89,7 @@
         .container .two.columns                     { width: 76px; }
         .container .three.columns                   { width: 124px; }
         .container .four.columns                    { width: 172px; }
-        .container .five.columns                    { width: 220px; }
+        .container .five.columns                    { width: 215px; }
         .container .six.columns                     { width: 268px; }
         .container .seven.columns                   { width: 316px; }
         .container .eight.columns                   { width: 364px; }
