@@ -40,16 +40,17 @@ div.wrapper {
   position: relative; /* important(so we can absolutely position the description div */
 }
 
-div.description {
-  position: relative; /* absolute position (so we can position it where we want)*/
+.description {
+  position: absolute; /* absolute position (so we can position it where we want)*/
+  width: 100%;
+  bottom:5%; /* position will be on bottom */
+  left:50%; /*needed to center text on div*/
+  margin-left: -50%; /*needed to center text on div*/
 
   /* styling bellow */
-  background-color: black;
   font-size: 15px;
-  //color:white;
+  color: white;
   text-shadow: none !important;
-  opacity: 0.6; /* transparency */
-  filter: alpha(opacity = 60); /* IE transparency */
   font-family: arial;
 }
 
@@ -134,7 +135,7 @@ p.description_content:hover {
 }
 
 .video-list-box{
+  position: relative;
   overflow: hidden;
   padding-bottom: 3%;
-  padding-right: 2%;
 }

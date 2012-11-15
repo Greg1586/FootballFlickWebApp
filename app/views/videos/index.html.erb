@@ -22,16 +22,24 @@
                     var videoListDiv = document.createElement("div");
                     videoListDiv.className = "columns five";
                     videoListDiv.id = "video-list" + i;
+
                     var thumbnailDiv = document.createElement("div");
                     thumbnailDiv.className = "video-list-box";
-                    videoListDiv.appendChild(thumbnailDiv)
-                    videoDiv.appendChild(videoListDiv)
+
+                    var descriptionOverlay = document.createElement("p");
+                    descriptionOverlay.className = "description";
+                    descriptionOverlay.textContent = "some stuff";
+
+                    videoListDiv.appendChild(thumbnailDiv);
+                    videoDiv.appendChild(videoListDiv);
 
                     lc(this).getByIndex(i).getThumbnail({'width':260, 'height':120})
                             .appendTo(thumbnailDiv)
                             .click(function () {
                                 window.location = 'videos/' + $(this).attr("widget_id");
                             });
+
+                    thumbnailDiv.appendChild(descriptionOverlay);
                 } catch (e) {
 
                 }
