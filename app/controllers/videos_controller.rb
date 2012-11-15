@@ -1,7 +1,7 @@
 class VideosController < ApplicationController
 include HTTParty
   def index
-    @videos = Video.find(:all)
+
   end
 
   def show
