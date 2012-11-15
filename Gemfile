@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
+
 #json parsing for liveclicker
 gem 'httparty'
 gem 'json'
@@ -19,6 +20,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'warbler'
 end
 
 group :production do
