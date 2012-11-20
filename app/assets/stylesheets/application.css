@@ -65,7 +65,3 @@ body {
 .round-logo{
     border-radius: 20px;
 }
-
-.carousel .active {
-    display: block;
-}
