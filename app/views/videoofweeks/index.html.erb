@@ -2,19 +2,3 @@
   <div align="center" id="VideoOfTheWeek" class="show-spinner"></div>
 </div>
 
-<script type="text/javascript">
-    lc.settings = { 'account_id':1584 };
-
-    $(document).ready(function () {
-        player();
-    });
-
-    function player() {
-        lc({'tag':'VideoOfTheWeek'}).isReady(function () {
-            x = document.getElementById("video-of-week");
-            width = (x.offsetWidth * 0.95);
-            height = (width * 0.57);
-            lc(this).getByIndex(0).getPlayer({'player_id':1285, 'width':width, 'height':height}).appendPlayerTo({'id':'VideoOfTheWeek'});
-        });
-    }
-</script>
