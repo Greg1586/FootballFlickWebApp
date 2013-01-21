@@ -26,7 +26,7 @@ if(document.getElementById("video-of-week")){
     function player() {
         lc({'tag':'VideoOfTheWeek'}).isReady(function () {
             x = document.getElementById("video-of-week");
-            width = (x.offsetWidth * 0.95);
+            width = (x.offsetWidth * 0.90);
             height = (width * 0.57);
             lc(this).getByIndex(0).getPlayer({'player_id':1285, 'width':width, 'height':height}).appendPlayerTo({'id':'VideoOfTheWeek'});
         });

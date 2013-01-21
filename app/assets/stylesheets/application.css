@@ -36,11 +36,15 @@ body {
 }
 
 .headerLogo{
-    height: 10%;
+    max-width: 45%;
     background-color: #ffffff;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    text-align: left;
+    padding: 10px 0px 20px 10px;
+    float: left;
+}
+
+.headerLogo img{
+    width: 100%;
 }
 
 .orange-font{
@@ -64,4 +68,11 @@ body {
 
 .round-logo{
     border-radius: 20px;
+}
+
+.buy-now{
+    text-align: right;
+    float: right;
+    padding: 10px 0px 0px 0px;
+    width: 50%;
 }

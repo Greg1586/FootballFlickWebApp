@@ -10,7 +10,7 @@ if (document.getElementById("video")) {
             for (var i = 0; i < listLength; i++) {
                 try {
                     var videoListDiv = document.createElement("div");
-                    videoListDiv.className = "columns five";
+                    videoListDiv.className = "columns three";
                     videoListDiv.id = "video-list" + i;
 
                     var thumbnailDiv = document.createElement("div");

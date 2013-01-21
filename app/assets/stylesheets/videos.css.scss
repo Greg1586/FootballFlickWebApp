@@ -43,7 +43,7 @@ div.wrapper {
 .description {
   position: absolute; /* absolute position (so we can position it where we want)*/
   width: 100%;
-  bottom: -2px; /* position will be on bottom */
+  bottom: -6px; /* position will be on bottom */
   left:50%; /*needed to center text on div*/
   margin-left: -50%; /*needed to center text on div*/
 
@@ -129,7 +129,6 @@ p.description_content:hover {
 }
 
 .show-spinner {
-  min-height: 240px;
   background: url(/assets/spinner.gif) center no-repeat;
 }
 
