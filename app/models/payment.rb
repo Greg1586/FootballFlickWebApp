@@ -1,5 +1,6 @@
 class Payment < ActiveRecord::Base
   after_create:verify_payment
+  serialize :params
   attr_accessible :status, :transaction_id
 
   private
