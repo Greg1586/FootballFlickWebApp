@@ -2,11 +2,10 @@ if (document.getElementById("video")) {
     lc.settings = { 'account_id':1584 };
 
     $(document).ready(function () {
-        lc({'tag':'Football'}).isReady(function () {
+        lc({'dim1':'Football'}).isReady(function () {
             var listLength = lc(this).length;
             var listOfWidgets = lc(this);
             var videoDiv = document.getElementById('video');
-
             for (var i = 0; i < listLength; i++) {
                 try {
                     var videoListDiv = document.createElement("div");
