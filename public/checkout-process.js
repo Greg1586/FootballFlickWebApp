@@ -5,4 +5,9 @@ $(document).ready(function(){
         $('#overlay').addClass("checkout-background");
         $('#checkoutConfirmation').addClass("display-message");
     });
+
+    $('#overlay').click(function(){
+        $(this).removeClass("checkout-background")
+        $('#checkout').addClass("hidden");
+    });
 });
