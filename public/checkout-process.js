@@ -4,11 +4,13 @@ $(document).ready(function(){
         $('#checkout').addClass("checkout");
         $('#overlay').addClass("checkout-background");
         $('#checkoutConfirmation').addClass("display-message");
+        $("input[name='submit']").attr('disabled','disabled');
     });
 
     $('#overlay').click(function(){
         $(this).removeClass("checkout-background")
         $('#checkout').addClass("hidden");
+        $('li').removeClass('ui-selected');
     });
 
     $('li').click(function(){
@@ -17,4 +19,11 @@ $(document).ready(function(){
         }
         $(this).addClass('ui-selected');
     });
+
+    $('#checkoutCheckbox').click(function(){
+        if($('li').hasClass('ui-selected')){
+            $("input[name='submit']").removeAttr('disabled');
+        }
+    });
+
 });
