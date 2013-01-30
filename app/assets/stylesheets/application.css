@@ -144,7 +144,8 @@ ol li {
 }
 
 ol .ui-selected {
-    background: #F39814; color: white;
+    /*background: #F39814; color: white;*/
+    background: #ff4500; color: white;
 }
 
 

@@ -10,4 +10,11 @@ $(document).ready(function(){
         $(this).removeClass("checkout-background")
         $('#checkout').addClass("hidden");
     });
+
+    $('li').click(function(){
+        if ($('li').hasClass('ui-selected')){
+            $('li').removeClass('ui-selected');
+        }
+        $(this).addClass('ui-selected');
+    });
 });
