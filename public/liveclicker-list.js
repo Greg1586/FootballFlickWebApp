@@ -41,3 +41,15 @@ if (document.getElementById("video")) {
     });
 }
 
+$(document).ready(function(){
+    $('#buy').click(function(){
+//        var checkout = document.createElement('div');
+//        checkout.className = "checkout";
+//        document.body.appendChild(checkout);
+        $('#checkout').removeClass("hidden");
+        $('#checkout').addClass("checkout");
+        $('#overlay').addClass("checkout-background");
+        $('#checkoutConfirmation').addClass("display-message");
+    });
+});
+

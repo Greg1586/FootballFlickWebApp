@@ -12,7 +12,7 @@
 
 </head>
 <body class="grass-background">
-
+<div id="overlay"></div>
 <div id="page" class="page-padding">
   <div id="page-container" class="container round-page">
     <div class="headerLogo round-logo">
@@ -20,12 +20,29 @@
         <img src="/assets/HeaderLogo.png"/>
       </a>
     </div>
-    <form class="buy-now" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="92PYP6KURPTK2">
-      <input type="image" src="https://www.sandbox.paypal.com/en_GB/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-    </form>
+
+    <div id="checkout" class="hidden">
+      <ol>
+        <li>England - £10</li>
+        <li>Scotland - £20</li>
+        <li>Wales - £30</li>
+        <li>Ireland - £40</li>
+      </ol>
+      <form id="checkoutConfirmation">
+        <input type="checkbox" name="t&c" value="Accept">Click here to confirm you have read and understood our T&C's
+      </form>
+      <form action="">
+        <input type="button" name="submit" value="I Agree" class="checkout-button">
+      </form>
+    </div>
+
+    <!--<form class="buy-now" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">-->
+      <!--<input type="hidden" name="cmd" value="_s-xclick">-->
+      <!--<input type="hidden" name="hosted_button_id" value="92PYP6KURPTK2">-->
+      <!--<input type="image" src="https://www.sandbox.paypal.com/en_GB/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">-->
+      <!--<img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">-->
+    <!--</form>-->
+    <div id="buy" class="buy-now"></div>
 
     <%= yield %>
 
