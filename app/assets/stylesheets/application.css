@@ -80,9 +80,12 @@ body {
 .buy-now{
     float: right;
     margin: 10px 10px 0px 0px;
-    width: 100px;
+    width: 120px;
     height: 30px;
-    background: #ff4500;
+}
+
+.buy-now img{
+    width: 100%;
 }
 
 .checkout{
